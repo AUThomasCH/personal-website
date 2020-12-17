@@ -1,6 +1,11 @@
 module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
-  theme: {},
+  theme: {
+    fontFamily: {
+      semiBold: ["OpenSans-SemiBold"],
+      light: ["OpenSans-Light"],
+    },
+  },
   variants: {},
   plugins: [],
 };

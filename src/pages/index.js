@@ -1,11 +1,12 @@
 import React from "react";
 
+import { headerText } from "../config/index";
+
 import SocialIcon from "../components/SocialIcon";
 
 import headerImage from "../assets/img/header.svg";
 import portfolioImage from "../assets/img/Portfolio-black.jpeg";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
@@ -24,8 +25,8 @@ const IndexPage = () => {
             src={portfolioImage}
             class="h-24 w-24 rounded-full transform -translate-y-1/2 m-auto"
           ></img>
-          <h1 class="text-center font-semibold">Thomas Glauser</h1>
-          <h2 class="text-center text-gray-500">
+          <h1 class="text-center font-semibold font-semiBold">{headerText}</h1>
+          <h2 class="text-center font-light text-gray-500">
             I build things that aren't evil.
           </h2>
           <div class="flex justify-center">

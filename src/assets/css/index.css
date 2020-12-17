@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
