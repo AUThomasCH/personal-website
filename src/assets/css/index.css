@@ -5,9 +5,11 @@
 @font-face {
   font-family: OpenSans-SemiBold;
   src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: OpenSans-Light;
   src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+  font-display: swap;
 }
