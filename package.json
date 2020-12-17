@@ -8,7 +8,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "serve": "node app.js",
     "clean": "gatsby clean"
   },
   "dependencies": {

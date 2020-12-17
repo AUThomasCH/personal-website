@@ -1,48 +1,39 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Portfolio | thomas-glauser.ch
 
-## 🚀 Quick start
+Personal Portfolio Gatsby Application
 
-1.  **Create a Gatsby site.**
+## Local development
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### Install dependencies
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+```sh
+npm install
+```
 
-2.  **Start developing.**
+### Run local development server
 
-    Navigate into your new site’s directory and start it up.
+```sh
+npm run develop
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Build project
 
-3.  **Open the code and start customizing!**
+```sh
+npm run build
+```
 
-    Your site is now running at http://localhost:8000!
+### Run production express server
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```sh
+npm run serve
+```
 
-4.  **Learn more**
+## Google App Engine
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+You can use app.yaml and cloudbuild.yaml to run this application on Google App Engine.
+[Instructions](https://cloud.google.com/appengine/docs/standard/nodejs).
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## License
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This is open source software
+[licensed as GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
