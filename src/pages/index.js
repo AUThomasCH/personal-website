@@ -1,6 +1,13 @@
 import React from "react";
 
-import { headerText } from "../config/index";
+import {
+  headerText,
+  subText,
+  URLEmail,
+  URLGitHub,
+  URLLinkedin,
+  URLTwitter,
+} from "../config/index";
 
 import SocialIcon from "../components/SocialIcon";
 
@@ -26,14 +33,28 @@ const IndexPage = () => {
             class="h-24 w-24 rounded-full transform -translate-y-1/2 m-auto"
           ></img>
           <h1 class="text-center font-semibold font-semiBold">{headerText}</h1>
-          <h2 class="text-center font-light text-gray-500">
-            I build things that aren't evil.
-          </h2>
+          <h2 class="text-center font-light text-gray-500">{subText}</h2>
           <div class="flex justify-center">
-            <SocialIcon icon={faGithub} iconColor="text-grey-800" />
-            <SocialIcon icon={faLinkedin} iconColor="text-blue-600" />
-            <SocialIcon icon={faTwitter} iconColor="text-blue-400" />
-            <SocialIcon icon={faEnvelope} iconColor="text-blue-700" />
+            <SocialIcon
+              icon={faGithub}
+              iconColor="text-grey-800"
+              url={URLGitHub}
+            />
+            <SocialIcon
+              icon={faLinkedin}
+              iconColor="text-blue-600"
+              url={URLLinkedin}
+            />
+            <SocialIcon
+              icon={faTwitter}
+              iconColor="text-blue-400"
+              url={URLTwitter}
+            />
+            <SocialIcon
+              icon={faEnvelope}
+              iconColor="text-blue-700"
+              url={URLEmail}
+            />
           </div>
         </div>
       </div>
