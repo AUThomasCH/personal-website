@@ -1,6 +1,9 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import {
+  headerTitle,
+  headerDescription,
   headerText,
   subText,
   URLEmail,
@@ -13,6 +16,7 @@ import SocialIcon from "../components/SocialIcon";
 
 import headerImage from "../assets/img/header.svg";
 import portfolioImage from "../assets/img/Portfolio-black.jpeg";
+import favicon from "../assets/img/favicon.ico";
 
 import {
   faGithub,
@@ -25,6 +29,14 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const IndexPage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{headerTitle}</title>
+        <html lang="en" />
+        <meta name="description" content={headerDescription} />
+        <link rel="icon" type="image/png" href={favicon} />
+      </Helmet>
+
       <div class="bg-gray-900 w-screen h-screen flex justify-center items-center">
         <div class="px-8 md:px-16 bg-white rounded shadow-xl">
           <img src={headerImage} class="w-64" alt="Header"></img>
