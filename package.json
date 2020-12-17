@@ -1,12 +1,9 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "private": true,
-  "description": "My Gatsby site",
+  "description": "Personal Portfolio Website",
   "author": "Thomas Glauser",
-  "keywords": [
-    "gatsby"
-  ],
+  "license": "GPL-3.0",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -14,7 +11,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "license": "0BSD",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
