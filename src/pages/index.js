@@ -12,7 +12,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const IndexPage = () => {
   return (
@@ -30,7 +30,7 @@ const IndexPage = () => {
             <SocialIcon icon={faGithub} iconColor="text-grey-800" />
             <SocialIcon icon={faLinkedin} iconColor="text-blue-600" />
             <SocialIcon icon={faTwitter} iconColor="text-blue-400" />
-            <SocialIcon icon={faAt} iconColor="text-red-600" />
+            <SocialIcon icon={faEnvelope} iconColor="text-blue-700" />
           </div>
           <h3>Tjihgojneinzhiuzi</h3>
         </div>
