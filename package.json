@@ -26,12 +26,12 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.6.0",
-    "postcss": "^8.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "postcss": "^8.2.1"
   }
 }
