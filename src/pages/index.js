@@ -37,17 +37,19 @@ const IndexPage = () => {
         <link rel="icon" type="image/png" href={favicon} />
       </Helmet>
 
-      <div class="bg-gray-900 w-screen h-screen flex justify-center items-center">
-        <div class="px-8 md:px-16 bg-white rounded shadow-xl">
-          <img src={headerImage} class="w-64" alt="Header"></img>
+      <div className="bg-gray-900 w-screen h-screen flex justify-center items-center">
+        <div className="px-8 md:px-16 bg-white rounded shadow-xl">
+          <img src={headerImage} className="w-64" alt="Header"></img>
           <img
             src={portfolioImage}
-            class="h-24 w-24 rounded-full transform -translate-y-1/2 m-auto"
+            className="h-24 w-24 rounded-full transform -translate-y-1/2 m-auto"
             alt="Profile"
           ></img>
-          <h1 class="text-center font-semibold font-semiBold">{headerText}</h1>
-          <h2 class="text-center font-light text-gray-500">{subText}</h2>
-          <div class="flex justify-center">
+          <h1 className="text-center font-semibold font-semiBold">
+            {headerText}
+          </h1>
+          <h2 className="text-center font-light text-gray-500">{subText}</h2>
+          <div className="flex justify-center">
             <SocialIcon
               icon={faGithub}
               iconColor="text-grey-800"
