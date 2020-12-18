@@ -12,16 +12,18 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
-    "helmet": "^4.2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
     "gatsby": "^2.29.1",
     "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-robots-txt": "^1.5.3",
+    "gatsby-plugin-sitemap": "^2.9.0",
+    "helmet": "^4.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
