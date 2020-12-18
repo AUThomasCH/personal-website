@@ -10,6 +10,7 @@ import {
   URLGitHub,
   URLLinkedin,
   URLTwitter,
+  URLGPGKey,
 } from "../config/index";
 
 import SocialIcon from "../components/SocialIcon";
@@ -24,7 +25,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
 
 const IndexPage = () => {
   return (
@@ -69,6 +70,11 @@ const IndexPage = () => {
               icon={faEnvelope}
               iconColor="text-blue-700"
               url={URLEmail}
+            />
+            <SocialIcon
+              icon={faLock}
+              iconColor="text-blue-900"
+              url={URLGPGKey}
             />
           </div>
         </div>
