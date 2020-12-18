@@ -1,5 +1,7 @@
 # Portfolio | thomas-glauser.ch
 
+![build](https://github.com/AUThomasCH/personal-website/workflows/build/badge.svg)
+
 Personal Portfolio Gatsby Application
 
 ## Local development
