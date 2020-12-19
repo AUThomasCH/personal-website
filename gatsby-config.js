@@ -11,7 +11,13 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.thomas-glauser.ch",
-        policy: [{ userAgent: "*", allow: "/" }],
+        policy: [
+          {
+            userAgent: "*",
+            allow: "/",
+            disallow: "/static/",
+          },
+        ],
       },
     },
   ],
