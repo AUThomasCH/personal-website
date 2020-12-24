@@ -18,7 +18,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "gatsby": "^2.29.1",
+    "gatsby": "^2.29.2",
     "gatsby-plugin-postcss": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-plugin-robots-txt": "^1.5.5",
