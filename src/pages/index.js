@@ -2,8 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import {
-  headerTitle,
-  headerDescription,
   headerText,
   subText,
   URLEmail,
@@ -32,9 +30,9 @@ const IndexPage = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{headerTitle}</title>
+        <title>Thomas Glauser</title>
+        <meta name="description" content="Personal Portfolio Webpage" />
         <html lang="en" />
-        <meta name="description" content={headerDescription} />
         <link rel="icon" type="image/png" href={favicon} />
       </Helmet>
 

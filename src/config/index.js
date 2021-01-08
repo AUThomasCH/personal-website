@@ -1,6 +1,3 @@
-export const headerTitle = "Thomas Glauser";
-export const headerDescription = "Personal Portfolio Webpage";
-
 export const headerText = "Thomas Glauser";
 export const subText = "I build things that aren't evil.";
 
