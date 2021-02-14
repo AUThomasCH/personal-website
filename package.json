@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^2.0.3",
-    "postcss": "^8.2.5"
+    "postcss": "^8.2.6"
   }
 }
